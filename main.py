@@ -1,29 +1,31 @@
 import json
-from src.user_input import get_user_input
-from configs.validation import validate_instance
 
-CONFIG_PATH = "configs/instances.json"
-
-def save_instances(instances):
-    """Save instances to a JSON file."""
-    with open(CONFIG_PATH, "w") as f:
-        json.dump(instances, f, indent=4)
-    print(f" Data saved to {CONFIG_PATH}")
-
-def main():
+# Function to get machine details from the user
+def get_machine_details():
     machines = []
     while True:
-        instance_data = get_user_input()
-        if instance_data is None:
-            break  # Exit loop if user stops input
-        
-        if validate_instance(instance_data):
-            machines.append(instance_data)
-        else:
-            print(" Invalid input. Please try again.")
+        # Get the machine name
+        name = input("Please enter machine name (or 'done' to finish): ")
+        if name.lower() == 'done':
+            break
 
-    if machines:
-        save_instances(machines)
+        # Get other machine details
+        os = input("Enter the operating system (e.g., Ubuntu or CentOS): ")
+        cpu = input("Enter CPU configuration (e.g., 2vCPU): ")
+        ram = input("Enter RAM size (e.g., 4GB): ")
 
+        # Create a dictionary for the machine details
+        machine_data = {"name": name, "os": os, "cpu": cpu, "ram": ram}
+        machines.append(machine_data)
+
+    return machines
+
+# Save the machine data to a JSON file
+def save_to_json(machines):
+    with open("configs/instances.json", "w") as file:
+        json.dump(machines, file, indent=4)
+
+# Running the processes
 if __name__ == "__main__":
-    main()
+    machines = get_machine_details()
+    save_to_json(machines)
