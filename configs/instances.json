@@ -1,7 +1,14 @@
-{
-    "name": "VM",
-    "os": "Linux",
-    "cpu": 2,
-    "ram": "4GB"
-  }
-  
+[
+    {
+        "name": "json",
+        "os": "Ubuntu",
+        "cpu": "2GB",
+        "ram": "10GB"
+    },
+    {
+        "name": "vm",
+        "os": "linux",
+        "cpu": "2vCPU",
+        "ram": "4GB"
+    }
+]
