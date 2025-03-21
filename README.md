@@ -36,9 +36,10 @@ This Python script automates the setup and validation of machine configurations,
 ## Usage
 1. Run the script:
    ```bash
-   python script.py
+   python main.py
    ```
 2. Enter machine details when prompted, including:
+   - Machine name
    - IP address
    - Operating system (e.g., Ubuntu, CentOS)
    - CPU configuration (e.g., 2vCPU)

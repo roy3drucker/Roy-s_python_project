@@ -14,7 +14,7 @@
         "ram": "4GB"
     },
     {
-        "name": "arielw",
+        "name": "yehoraz",
         "ip": "192.168.0.114",
         "os": "Ubuntu",
         "cpu": "2vCPU",
@@ -42,14 +42,14 @@
         "ram": 4
     },
     {
-        "name": "arielw",
+        "name": "ariel",
         "ip": "192.168.1.1",
         "os": "Ubuntu",
         "cpu": "2vCPU",
         "ram": 4
     },
     {
-        "name": "ARIELW",
+        "name": "david",
         "ip": "192.168.5.6",
         "os": "Ubuntu",
         "cpu": "2vCPU",
