@@ -1,14 +1,58 @@
 [
     {
         "name": "json",
+        "ip": "192.168.0.116",
         "os": "Ubuntu",
         "cpu": "2GB",
         "ram": "10GB"
     },
     {
         "name": "vm",
-        "os": "linux",
+        "ip": "192.168.0.115",
+        "os": "Linux",
         "cpu": "2vCPU",
         "ram": "4GB"
+    },
+    {
+        "name": "arielw",
+        "ip": "192.168.0.114",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
+    },
+    {
+        "name": "roy",
+        "ip": "192.168.0.112",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
+    },
+    {
+        "name": "roy2 ",
+        "ip": "192.168.0.119",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
+    },
+    {
+        "name": "roy3",
+        "ip": "192.168.1.12",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
+    },
+    {
+        "name": "arielw",
+        "ip": "192.168.1.1",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
+    },
+    {
+        "name": "ARIELW",
+        "ip": "192.168.5.6",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 4
     }
 ]
