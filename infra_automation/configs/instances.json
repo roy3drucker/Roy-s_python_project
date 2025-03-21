@@ -54,5 +54,12 @@
         "os": "Ubuntu",
         "cpu": "2vCPU",
         "ram": 4
+    },
+    {
+        "name": "arielw",
+        "ip": "192.168.0.1",
+        "os": "Centos",
+        "cpu": "2vCPU",
+        "ram": 5
     }
 ]

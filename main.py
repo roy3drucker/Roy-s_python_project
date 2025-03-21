@@ -3,11 +3,11 @@ import logging
 import subprocess
 import jsonschema
 from jsonschema import validate
-from src.machine import Machine
+from infra_automation.src.machine import Machine
 
 
-EXISTS_MACHINES_PATH = "configs/instances.json"
-LOGS_PATH = "logs/provisioning.log"
+EXISTS_MACHINES_PATH = "infra_automation/configs/instances.json"
+LOGS_PATH = "infra_automation/logs/provisioning.log"
 
 
 def logging_setup():
