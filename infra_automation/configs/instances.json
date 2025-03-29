@@ -61,5 +61,19 @@
         "os": "Centos",
         "cpu": "2vCPU",
         "ram": 5
+    },
+    {
+        "name": "alon",
+        "ip": "192.168.1.8",
+        "os": "Ubuntu",
+        "cpu": "2vCPU",
+        "ram": 5
+    },
+    {
+        "name": "yoni",
+        "ip": "198.162.1.120",
+        "os": "Centos",
+        "cpu": "2",
+        "ram": 2
     }
 ]
