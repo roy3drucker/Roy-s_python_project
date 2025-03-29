@@ -36,7 +36,7 @@ This Python script automates the setup and validation of machine configurations,
 ## Usage
 1. Run the script:
    ```bash
-   python main.py
+   python infra_simulator.py
    ```
 2. Enter machine details when prompted, including:
    - Machine name
